@@ -1,11 +1,67 @@
+/* 1st page-index*/
+
+html {
+  height:100%;
+  background-color:gray;
+}
 body {
-width :100%;
-background-color:blue;
+  height:100%;
 }
 
-#maincontainer {
-  border:2px solid white;
-  width:50%;
-  height:700px;
-  margin:auto;
+
+
+
+.styling1 {
+  font-size:4.5rem;
+  font color:black;
+  text-align: center;
+}
+
+button {
+  width:100%;
+  height:8rem;
+  font-size: 1.5rem;
+  transition-duration: 0.4s;
+  border:2px solid black;
+  outline: none;
+  margin-bottom: 20px;
+
+}
+
+button:hover {
+  background-color: black;
+  color:white;
+}
+
+/* 2nd page-start*/
+
+.slidecontainer {
+    width: 80%;
+    margin:auto;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: black;
+    outline: none;
+    opacity: 0.7;
+    transition: 1s;
+    margin-top:20%;
+}
+
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+#rounds {
+  color:white;
+  font-size: 3rem;
+  text-align: center;
 }
